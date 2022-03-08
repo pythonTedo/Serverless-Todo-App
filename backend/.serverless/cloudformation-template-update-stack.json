@@ -217,7 +217,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/teodor-app.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/teodor-app.zip"
         },
         "Handler": "src/lambda/auth/auth0Authorizer.handler",
         "Runtime": "nodejs12.x",
@@ -253,7 +253,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/teodor-app.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/teodor-app.zip"
         },
         "Handler": "src/lambda/http/getTodos.handler",
         "Runtime": "nodejs12.x",
@@ -290,7 +290,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/teodor-app.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/teodor-app.zip"
         },
         "Handler": "src/lambda/http/createTodo.handler",
         "Runtime": "nodejs12.x",
@@ -327,7 +327,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/teodor-app.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/teodor-app.zip"
         },
         "Handler": "src/lambda/http/updateTodo.handler",
         "Runtime": "nodejs12.x",
@@ -364,7 +364,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/teodor-app.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/teodor-app.zip"
         },
         "Handler": "src/lambda/http/deleteTodo.handler",
         "Runtime": "nodejs12.x",
@@ -401,7 +401,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/teodor-app.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/teodor-app.zip"
         },
         "Handler": "src/lambda/http/generateUploadUrl.handler",
         "Runtime": "nodejs12.x",
@@ -431,64 +431,64 @@
         "GenerateUploadUrlLogGroup"
       ]
     },
-    "AuthLambdaVersionNaqGXXwxxZhypVaPakrqbvJLHMP80bx4IquVavWD5j4": {
+    "AuthLambdaVersionKitzCPrIKetDoRrIJ7x6A3nQMV7urUezq0o2x7zaaM": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "AuthLambdaFunction"
         },
-        "CodeSha256": "exbPVSyjDkby7/koZAtkvSzZTZO9z2WYxOLHFbnY/8c="
+        "CodeSha256": "UNX1WuxTRerFGQJGClHWJolw0FXkgYWH654GSeuDobs="
       }
     },
-    "GetTodosLambdaVersionq49fFjj90KTT70Mvn6W7YUiSU8tKkFV5hnVfQU5ba8k": {
+    "GetTodosLambdaVersiondze47hLGkosM3dcwI3PM92sN7wasjH7JHfGiTIbDLUs": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetTodosLambdaFunction"
         },
-        "CodeSha256": "exbPVSyjDkby7/koZAtkvSzZTZO9z2WYxOLHFbnY/8c="
+        "CodeSha256": "UNX1WuxTRerFGQJGClHWJolw0FXkgYWH654GSeuDobs="
       }
     },
-    "CreateTodoLambdaVersionIeWgh0FIJ6TSpaL2zbBaWzpgP2Dkq6JGwJRUaQJd09s": {
+    "CreateTodoLambdaVersion4PdmVwgjlCxIJkZje7TXiTGKVcIDeCm3GmoOyzGeRI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateTodoLambdaFunction"
         },
-        "CodeSha256": "exbPVSyjDkby7/koZAtkvSzZTZO9z2WYxOLHFbnY/8c="
+        "CodeSha256": "UNX1WuxTRerFGQJGClHWJolw0FXkgYWH654GSeuDobs="
       }
     },
-    "UpdateTodoLambdaVersion35BUjqN5UdxIF3PB0mEpZVNSlN623jbCnQzjWT0ybDk": {
+    "UpdateTodoLambdaVersionsKacbh95urpU7amR8r4qpZBbzNntwfRzxk4hwW98": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateTodoLambdaFunction"
         },
-        "CodeSha256": "exbPVSyjDkby7/koZAtkvSzZTZO9z2WYxOLHFbnY/8c="
+        "CodeSha256": "UNX1WuxTRerFGQJGClHWJolw0FXkgYWH654GSeuDobs="
       }
     },
-    "DeleteTodoLambdaVersionYpeBDEZAdMXpweqMrt2YoVLKTuaNj7xwBrSqJKww6b8": {
+    "DeleteTodoLambdaVersionI2fuTZaxipl7PZEHDKOdS1hGE0oWYmcEcQX2dVC22Xk": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "DeleteTodoLambdaFunction"
         },
-        "CodeSha256": "exbPVSyjDkby7/koZAtkvSzZTZO9z2WYxOLHFbnY/8c="
+        "CodeSha256": "UNX1WuxTRerFGQJGClHWJolw0FXkgYWH654GSeuDobs="
       }
     },
-    "GenerateUploadUrlLambdaVersionzbGP305KHFTOuQ6P5wWT7cUvHSANIT6Ha9bVatkRpM": {
+    "GenerateUploadUrlLambdaVersionfMoahH3s8Iyn77nUwmIu3L7Akfs3i4TcJ353q0tJs": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GenerateUploadUrlLambdaFunction"
         },
-        "CodeSha256": "exbPVSyjDkby7/koZAtkvSzZTZO9z2WYxOLHFbnY/8c="
+        "CodeSha256": "UNX1WuxTRerFGQJGClHWJolw0FXkgYWH654GSeuDobs="
       }
     },
     "ApiGatewayRestApi": {
@@ -952,7 +952,7 @@
         "Type": "TOKEN"
       }
     },
-    "ApiGatewayDeployment1646762218832": {
+    "ApiGatewayDeployment1646764909091": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -1302,7 +1302,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/teodor-app/dev/1646762353027-2022-03-08T17:59:13.027Z/custom-resources.zip"
+          "S3Key": "serverless/teodor-app/dev/1646765038744-2022-03-08T18:43:58.744Z/custom-resources.zip"
         },
         "FunctionName": "teodor-app-dev-custom-resource-apigw-cw-role",
         "Handler": "api-gateway-cloud-watch-role/handler.handler",
@@ -1838,7 +1838,7 @@
               "Sid": "PublicReadForGetBucketObjects",
               "Effect": "Allow",
               "Principal": "*",
-              "Action": "s3:GetObject",
+              "Action": "*",
               "Resource": "arn:aws:s3:::tedo-serverless-807079604586-dev/*"
             }
           ]
@@ -1872,7 +1872,7 @@
     "AuthLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "AuthLambdaVersionNaqGXXwxxZhypVaPakrqbvJLHMP80bx4IquVavWD5j4"
+        "Ref": "AuthLambdaVersionKitzCPrIKetDoRrIJ7x6A3nQMV7urUezq0o2x7zaaM"
       },
       "Export": {
         "Name": "sls-teodor-app-dev-AuthLambdaFunctionQualifiedArn"
@@ -1881,7 +1881,7 @@
     "GetTodosLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetTodosLambdaVersionq49fFjj90KTT70Mvn6W7YUiSU8tKkFV5hnVfQU5ba8k"
+        "Ref": "GetTodosLambdaVersiondze47hLGkosM3dcwI3PM92sN7wasjH7JHfGiTIbDLUs"
       },
       "Export": {
         "Name": "sls-teodor-app-dev-GetTodosLambdaFunctionQualifiedArn"
@@ -1890,7 +1890,7 @@
     "CreateTodoLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateTodoLambdaVersionIeWgh0FIJ6TSpaL2zbBaWzpgP2Dkq6JGwJRUaQJd09s"
+        "Ref": "CreateTodoLambdaVersion4PdmVwgjlCxIJkZje7TXiTGKVcIDeCm3GmoOyzGeRI"
       },
       "Export": {
         "Name": "sls-teodor-app-dev-CreateTodoLambdaFunctionQualifiedArn"
@@ -1899,7 +1899,7 @@
     "UpdateTodoLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateTodoLambdaVersion35BUjqN5UdxIF3PB0mEpZVNSlN623jbCnQzjWT0ybDk"
+        "Ref": "UpdateTodoLambdaVersionsKacbh95urpU7amR8r4qpZBbzNntwfRzxk4hwW98"
       },
       "Export": {
         "Name": "sls-teodor-app-dev-UpdateTodoLambdaFunctionQualifiedArn"
@@ -1908,7 +1908,7 @@
     "DeleteTodoLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "DeleteTodoLambdaVersionYpeBDEZAdMXpweqMrt2YoVLKTuaNj7xwBrSqJKww6b8"
+        "Ref": "DeleteTodoLambdaVersionI2fuTZaxipl7PZEHDKOdS1hGE0oWYmcEcQX2dVC22Xk"
       },
       "Export": {
         "Name": "sls-teodor-app-dev-DeleteTodoLambdaFunctionQualifiedArn"
@@ -1917,7 +1917,7 @@
     "GenerateUploadUrlLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GenerateUploadUrlLambdaVersionzbGP305KHFTOuQ6P5wWT7cUvHSANIT6Ha9bVatkRpM"
+        "Ref": "GenerateUploadUrlLambdaVersionfMoahH3s8Iyn77nUwmIu3L7Akfs3i4TcJ353q0tJs"
       },
       "Export": {
         "Name": "sls-teodor-app-dev-GenerateUploadUrlLambdaFunctionQualifiedArn"
