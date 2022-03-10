@@ -1,10 +1,10 @@
-import { TodosAccess } from '../helpers/todosAcess'
+import { TodosAccess } from '../dataLayer/todosAcess'
 import { TodoItem } from '../models/TodoItem'
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
 import * as uuid from 'uuid'
 import { TodoUpdate } from '../models/TodoUpdate';
-import { AttachmentUtils } from './attachmentUtils';
+import { AttachmentUtils } from '../dataLayer/attachmentUtils';
 
 const todosAccess = new TodosAccess();
 const accessFile = new AttachmentUtils();
